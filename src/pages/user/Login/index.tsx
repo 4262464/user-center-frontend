@@ -129,12 +129,11 @@ const Login: React.FC = () => {
               marginBottom: 24,
             }}
           >
-            <Space split={<Divider type="vertical" />}>
-              <ProFormCheckbox noStyle name="autoLogin">
+            <Space split={<Divider type="horizontal"/>} >
+              <ProFormCheckbox noStyle name="autoLogin" >
               自动登录
-             </ProFormCheckbox>
-              <Link to="/user/register">新用户注册</Link>
-
+              </ProFormCheckbox><p/><p/><p/><p/><p/><p/><p/><p/><p/>
+              <Link to="/user/register" >新用户注册</Link>
             </Space>
           </div>
         </LoginForm>
