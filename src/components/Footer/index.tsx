@@ -7,16 +7,16 @@ const Footer: React.FC = () => {
     <DefaultFooter
       copyright={`${currentYear} ${defaultMessage}`}
       links={[
-        {
-          key: 'Ant Design Pro',
-          title: '常安不孤单',
-          href: 'https://space.bilibili.com/1673526056',
-          blankTarget: true,
-        },
+        // {
+        //   key: 'Ant Design Pro',
+        //   title: '',
+        //   href: 'https://github.com/4262464/user-backend',
+        //   blankTarget: true,
+        // },
         {
           key: 'github',
           title: <GithubOutlined />,
-          href: 'https://github.com/ant-design/ant-design-pro',
+          href: 'https://github.com/4262464/user-backend',
           blankTarget: true,
         },
         // {
